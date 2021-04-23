@@ -1,5 +1,8 @@
 package ru.kpfu.itis.Chukhina.entities;
 
+/**
+ * @author Chukhina Anastasia
+ */
 public abstract class AbstractApp {
 
     public AbstractApp(){

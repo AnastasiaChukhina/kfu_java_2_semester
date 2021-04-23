@@ -1,8 +1,12 @@
-package ru.kpfu.itis.Chukhina.entities.exceptions;
+package ru.kpfu.itis.Chukhina.entities.commands.exceptions;
 
-public class UnknownFileException extends RuntimeException{
+/**
+ * Exception which throws if the written directory doesn't exist
+ * @author Chukhina Anastasia
+ */
+public class UnknownDirectoryException extends RuntimeException{
 
-    public UnknownFileException(String mes){
+    public UnknownDirectoryException(String mes){
         super();
     }
 

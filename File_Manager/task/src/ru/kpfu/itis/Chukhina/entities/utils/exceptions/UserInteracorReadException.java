@@ -1,8 +1,12 @@
-package ru.kpfu.itis.Chukhina.entities.exceptions;
+package ru.kpfu.itis.Chukhina.entities.utils.exceptions;
 
-public class UnknownDirectoryException extends RuntimeException{
+/**
+ * Exception which throws if the written string can't be read
+ * @author Chukhina Anastasia
+ */
+public class UserInteracorReadException extends RuntimeException{
 
-    public UnknownDirectoryException(String mes){
+    public UserInteracorReadException(String mes){
         super();
     }
 
